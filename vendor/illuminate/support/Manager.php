@@ -52,7 +52,7 @@ abstract class Manager
      * @param  string  $driver
      * @return mixed
      */
-    public function driver($driver = null)
+    public function driver($driver = 'smtp')
     {
         $driver = $driver ?: $this->getDefaultDriver();
 
